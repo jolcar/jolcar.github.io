@@ -24,15 +24,6 @@ const MASTER_MAP = [
     ],
   },
   {
-    groupName: 'Streaming',
-    items: [
-      { name: 'pandora', shortcutKey: 's', url: 'https://www.pandora.com/' },
-      { name: 'spotify', shortcutKey: 'a', url: 'https://open.spotify.com/browse' },
-      { name: 'twitch', shortcutKey: 's', url: 'https://www.twitch.tv/directory/following' },
-      { name: 'youtube', shortcutKey: 'd', url: 'https://www.youtube.com' },
-    ],
-  },
-  {
     groupName: 'General',
     items: [
       { name: 'messages', shortcutKey: 'q', url: 'https://messages.android.com/' },
@@ -48,6 +39,15 @@ const MASTER_MAP = [
       { name: 'github', shortcutKey: 'x', url: 'https://www.github.com/johlcar' },
       { name: 'mail', shortcutKey: 'c', url: 'https://www.google.com/gmail/' },
       { name: 'regions', shortcutKey: 'c', url: 'https://www.regions.com/personal-banking' },
+    ],
+  },
+  {
+    groupName: 'Streaming',
+    items: [
+      { name: 'pandora', shortcutKey: 's', url: 'https://www.pandora.com/' },
+      { name: 'spotify', shortcutKey: 'a', url: 'https://open.spotify.com/browse' },
+      { name: 'twitch', shortcutKey: 's', url: 'https://www.twitch.tv/directory/following' },
+      { name: 'youtube', shortcutKey: 'd', url: 'https://www.youtube.com' },
     ],
   },
 ];
@@ -131,7 +131,8 @@ function setupQuote() {
     'To strive, to seek, to find, and not to yield. <br/>- Tennyson', 'Be the change you wish to see in the world. <br/>- Ghandi', 'Do or do not. There is no try. <br/>- Yoda',
     'Would I rather be feared or loved? Easy - both. I want people to be afraid of how much they love me. <br/>- Michael Scott', 'Hodor. <br/>- Hodor',
     "Don't ask for a lighter load, ask for a stronger back. <br/>- Phillips Brooks", 'Good judgement comes from experience and experience comes from bad judgement. <br/>- Anonymous',
-    'Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world. <br/>- Albert Einstein']
+    'Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world. <br/>- Albert Einstein', 'Don’t count the days; make the days count. <br/>- Muhammad Ali', 'It isn’t the mountains ahead to climb that wear you out; it’s the pebble in your shoe. <br/>- Muhammad Ali',
+    "In three words I can sum up everything I've learned about life: it goes on. <br/>- Robert Frost", 'The man who moves a mountain begins by carrying away small stones. <br/>- Confucius', "You're only given a little spark of madness. You mustn't lose it. <br/>- Robin Williams", 'No matter what people tell you, words and ideas can change the world. <br/>- Robin Williams']
 
   const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
