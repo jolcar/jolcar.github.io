@@ -1,67 +1,30 @@
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300|Roboto+Mono:400,500" rel="stylesheet">
-  <link rel="stylesheet" href="styles/main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Title of the page-->
+    <title>Home</title>
+
+    <!--Startpage icon - material house icon-->
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,400">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="date-container">
-        <div id="js-greeting" class="greeting"></div>
-        <div id="js-date" class="date"></div>
-        <time id='js-clock'></time>
-      </div>
-    </header>
-    <main>
-      <div class="section-container">
-        <section>
-          <h3>Section 1</h3>
-          <ul>
-            <li><a href="#">link 1</a></li>
-            <li><a href="#">link 2</a></li>
-            <li><a href="#">link 3</a></li>
-          </ul>
-        </section>
-        <section>
-          <h3>Section 2</h3>
-          <ul>
-            <li><a href="#">link 1</a></li>
-            <li><a href="#">link 2</a></li>
-            <li><a href="#">link 3</a></li>
-          </ul>
-        </section>
-        <section>
-          <h3>Section 3</h3>
-          <ul>
-            <li><a href="#">link 1</a></li>
-            <li><a href="#">link 2</a></li>
-            <li><a href="#">link 3</a></li>
-          </ul>
-        </section>
-        <section>
-          <h3>Section 4</h3>
-          <ul>
-            <li><a href="#">link 1</a></li>
-            <li><a href="#">link 2</a></li>
-            <li><a href="#">link 3</a></li>
-          </ul>
-        </section>
-      </div>
-    <div class="search">
-      <form action="https://www.duckduckgo.com/" method="get">
-        <input type="search" autocomplete="off" placeholder="search something" name="q" class="searchbox">
-        <input type="submit" value="search" style="display:none;">
-    </div>
-    </main>
-    <footer>
-      <div id="quote"></div>
-    </footer>
-  </div>
- <script src="scripts/greeting.js"></script> 
- <script src="scripts/quote.js"></script> 
+	<div id="logo">
+		<h1 id="welcome-string"></h1>
+		<h2 id="quote">welcome</h2>
+	</div>
+	<div id="content">
+		<!--Filled dynamically by script.js. Edit `MASTER_MAP` inside the script to change page's contents-->
+	</div>
+	<div id="credits">
+		Made by Tikaro, avaialble on <a href="https://github.com/0-Tikaro/mvs-startpage">GitHub</a>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>

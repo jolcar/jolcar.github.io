@@ -1,0 +1,28 @@
+{
+  "name": "jolcar.github.io",
+  "version": "1.0.0",
+  "description": "![Screenshot](https://raw.githubusercontent.com/0-Tikaro/minimum-viable-startpage/master/docs/screenshot.png)",
+  "main": "script.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolcar/jolcar.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jolcar/jolcar.github.io/issues"
+  },
+  "homepage": "https://github.com/jolcar/jolcar.github.io#readme"
+}
