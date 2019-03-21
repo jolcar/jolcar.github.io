@@ -15,27 +15,39 @@ const SHORTCUT_TIMEOUT = 1500;
 // like `esc` and `f1`, but intended to be used with just regular latin letters.
 const MASTER_MAP = [
   {
-    groupName: 'Studies',
+    groupName: 'Docs',
     items: [
-      { name: 'Item A', shortcutKey: 'q', url: 'https://google.com/?q=q' },
-      { name: 'Item B', shortcutKey: 'w', url: 'https://google.com/?q=w' },
-      { name: 'Item C', shortcutKey: 'e', url: 'https://google.com/?q=e' },
+      { name: 'arch', shortcutKey: 'z', url: 'https://www.archlinux.org/news/' },
+      { name: 'devdocs', shortcutKey: 'x', url: 'https://devdocs.io/' },
+      { name: 'devhints', shortcutKey: 'c', url: 'https://devhints.io/' },
+      { name: 'git', shortcutKey: 'c', url: 'http://rogerdudler.github.io/git-guide/' },
     ],
   },
   {
-    groupName: 'Work',
+    groupName: 'Streaming',
     items: [
-      { name: 'Item D', shortcutKey: 'a', url: 'https://google.com/?q=a' },
-      { name: 'Item E', shortcutKey: 's', url: 'https://google.com/?q=s' },
-      { name: 'Item F', shortcutKey: 'd', url: 'https://google.com/?q=d' },
+      { name: 'pandora', shortcutKey: 's', url: 'https://www.pandora.com/' },
+      { name: 'spotify', shortcutKey: 'a', url: 'https://open.spotify.com/browse' },
+      { name: 'twitch', shortcutKey: 's', url: 'https://www.twitch.tv/directory/following' },
+      { name: 'youtube', shortcutKey: 'd', url: 'https://www.youtube.com' },
+    ],
+  },
+  {
+    groupName: 'General',
+    items: [
+      { name: 'messages', shortcutKey: 'q', url: 'https://messages.android.com/' },
+      { name: 'reddit', shortcutKey: 'w', url: 'https://www.reddit.com/' },
+      { name: 'trello', shortcutKey: 'q', url: 'https://trello.com/' },
+      { name: 'vq', shortcutKey: 'e', url: 'https://tennessee.forums.rivals.com/forums/the-generals-quarters.10/' },
     ],
   },
   {
     groupName: 'Personal',
     items: [
-      { name: 'Item I', shortcutKey: 'z', url: 'https://google.com/?q=z' },
-      { name: 'Item J', shortcutKey: 'x', url: 'https://google.com/?q=x' },
-      { name: 'Item K', shortcutKey: 'c', url: 'https://google.com/?q=c' },
+      { name: 'drive', shortcutKey: 'z', url: 'https://drive.google.com/drive/my-drive' },
+      { name: 'github', shortcutKey: 'x', url: 'https://www.github.com/johlcar' },
+      { name: 'mail', shortcutKey: 'c', url: 'https://www.google.com/gmail/' },
+      { name: 'regions', shortcutKey: 'c', url: 'https://www.regions.com/personal-banking' },
     ],
   },
 ];
