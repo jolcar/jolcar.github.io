@@ -33,21 +33,21 @@ const MASTER_MAP = [
     ],
   },
   {
-    groupName: 'Personal',
-    items: [
-      { name: 'drive', shortcutKey: 'z', url: 'https://drive.google.com/drive/my-drive' },
-      { name: 'github', shortcutKey: 'x', url: 'https://www.github.com/johlcar' },
-      { name: 'mail', shortcutKey: 'c', url: 'https://www.google.com/gmail/' },
-      { name: 'regions', shortcutKey: 'c', url: 'https://www.regions.com/personal-banking' },
-    ],
-  },
-  {
     groupName: 'Streaming',
     items: [
       { name: 'pandora', shortcutKey: 's', url: 'https://www.pandora.com/' },
       { name: 'spotify', shortcutKey: 'a', url: 'https://open.spotify.com/browse' },
       { name: 'twitch', shortcutKey: 's', url: 'https://www.twitch.tv/directory/following' },
       { name: 'youtube', shortcutKey: 'd', url: 'https://www.youtube.com' },
+    ],
+  },
+  {
+    groupName: 'Personal',
+    items: [
+      { name: 'drive', shortcutKey: 'z', url: 'https://drive.google.com/drive/my-drive' },
+      { name: 'github', shortcutKey: 'x', url: 'https://www.github.com/johlcar' },
+      { name: 'mail', shortcutKey: 'c', url: 'https://www.google.com/gmail/' },
+      { name: 'regions', shortcutKey: 'c', url: 'https://www.regions.com/personal-banking' },
     ],
   },
 ];
