@@ -1,5 +1,4 @@
 /* eslint-disable no-prototype-builtins */
-const NAME = 'Joseph.';
 const WELCOME_MESSAGE_TEMPLATE = ['night', 'morning', 'afternoon', 'evening'];
 
 // All shortcuts are in a `SHORTCUT_STARTER+shortcutKey` format.
@@ -63,7 +62,7 @@ function setupWelcomeMessage() {
   let curHours = new Date().getHours();
   // Simply dividing current hours by 6 proves to be a good enough aproximation.
   curHours = Math.floor(curHours / 6); if (curHours === 4) curHours = 3;
-  const welcome = `Good ${WELCOME_MESSAGE_TEMPLATE[curHours]}, ${NAME}`;
+  const welcome = `Good ${WELCOME_MESSAGE_TEMPLATE[curHours]}.`;
   document.getElementById('welcome-string').innerHTML = welcome;
 }
 
@@ -124,7 +123,7 @@ function shortcutListener(e) {
 
 function setupQuote() {
   const quotes = [
-    'Not all those who wander are lost. <br/>- J.R.R. Tolkien', 'Kindness is the language which the deaf can hear and the blind can see. <br/>- Mark Twain',
+    'Not all those who wander are lost. <br/>- J.R.R. Tolkien', 'So comes snow after fire, and even dragons have their endings. <br/> - J.R.R. Tolkien', 'Kindness is the language which the deaf can hear and the blind can see. <br/>- Mark Twain',
      'Be the change you wish to see in the world. <br/>- Ghandi', 'Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world. <br/>- Albert Einstein', 'Don’t count the days; make the days count. <br/>- Muhammad Ali', 'It isn’t the mountains ahead to climb that wear you out; it’s the pebble in your shoe. <br/>- Muhammad Ali',
     "In three words I can sum up everything I've learned about life: it goes on. <br/>- Robert Frost", 'The man who moves a mountain begins by carrying away small stones. <br/>- Confucius', "You're only given a little spark of madness. You mustn't lose it. <br/>- Robin Williams", 'No matter what people tell you, words and ideas can change the world. <br/>- Robin Williams']
 
